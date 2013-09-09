@@ -9,6 +9,9 @@
 /* Begin PBXBuildFile section */
 		0333139F17DDE1DB00FE9A6D /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 0333139E17DDE1DB00FE9A6D /* main.cpp */; };
 		033313A117DDE1DB00FE9A6D /* sampleApp.1 in CopyFiles */ = {isa = PBXBuildFile; fileRef = 033313A017DDE1DB00FE9A6D /* sampleApp.1 */; };
+		033313AB17DDE34B00FE9A6D /* OpenGL.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 033313AA17DDE34B00FE9A6D /* OpenGL.framework */; };
+		033313AD17DDE35400FE9A6D /* GLUT.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 033313AC17DDE35400FE9A6D /* GLUT.framework */; };
+		033313AF17DDEA8500FE9A6D /* ScreenSaver.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 033313AE17DDEA8500FE9A6D /* ScreenSaver.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -28,6 +31,9 @@
 		0333139B17DDE1DB00FE9A6D /* sampleApp */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = sampleApp; sourceTree = BUILT_PRODUCTS_DIR; };
 		0333139E17DDE1DB00FE9A6D /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
 		033313A017DDE1DB00FE9A6D /* sampleApp.1 */ = {isa = PBXFileReference; lastKnownFileType = text.man; path = sampleApp.1; sourceTree = "<group>"; };
+		033313AA17DDE34B00FE9A6D /* OpenGL.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = OpenGL.framework; path = System/Library/Frameworks/OpenGL.framework; sourceTree = SDKROOT; };
+		033313AC17DDE35400FE9A6D /* GLUT.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GLUT.framework; path = System/Library/Frameworks/GLUT.framework; sourceTree = SDKROOT; };
+		033313AE17DDEA8500FE9A6D /* ScreenSaver.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = ScreenSaver.framework; path = System/Library/Frameworks/ScreenSaver.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -35,6 +41,9 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				033313AF17DDEA8500FE9A6D /* ScreenSaver.framework in Frameworks */,
+				033313AD17DDE35400FE9A6D /* GLUT.framework in Frameworks */,
+				033313AB17DDE34B00FE9A6D /* OpenGL.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -44,6 +53,9 @@
 		0333139217DDE1DA00FE9A6D = {
 			isa = PBXGroup;
 			children = (
+				033313AE17DDEA8500FE9A6D /* ScreenSaver.framework */,
+				033313AC17DDE35400FE9A6D /* GLUT.framework */,
+				033313AA17DDE34B00FE9A6D /* OpenGL.framework */,
 				0333139D17DDE1DB00FE9A6D /* sampleApp */,
 				0333139C17DDE1DB00FE9A6D /* Products */,
 			);
